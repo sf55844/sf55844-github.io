@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-image: url("back 2 1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: #d6d6d6;
+}
+
+header, footer {
+    background: #1a0000;
+    color: #ff4d4d;
+    text-align: center;
+    padding: 25px;
+	opacity: 0.9;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 30px;
+    background: #1b1b1b;
+    border: 1px solid #550000;
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.2);
+    border-radius: 12px;
+	opacity: 0.9;
+}
+
+h1, h2, h3 {
+    color: #ff6666;
+    text-shadow: 1px 1px 4px black;
+}
+
+p {
+    line-height: 1.9;
+}
+
+ul, ol {
+    margin-left: 25px;
+}
+
+button {
+    padding: 12px 24px;
+    background: #330000;
+    color: #ffcccc;
+    border: 1px solid #990000;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background: #550000;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+}
